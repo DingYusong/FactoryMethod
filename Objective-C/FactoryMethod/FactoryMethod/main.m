@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+#import "LeiFeng.h"
+
+#import "UndergraduateLeiFengFactory.h"
+#import "VolunteerLeiFengFactory.h"
+
 /**
  学雷锋志愿者帮助孤寡老人
  
@@ -18,8 +23,20 @@
  */
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        //工厂方法模式
+        LeiFeng *underGraduateLeiFeng = [UndergraduateLeiFengFactory createLeiFeng];
+        [underGraduateLeiFeng sweep];
+        [underGraduateLeiFeng wash];
+        [underGraduateLeiFeng buyFood];
+        
+        LeiFeng *volunteerLeiFeng = [VolunteerLeiFengFactory createLeiFeng];
+        [volunteerLeiFeng sweep];
+        [volunteerLeiFeng wash];
+        [volunteerLeiFeng buyFood];
+        
+        //新增一个学雷锋的类型的话，则新增一个创建雷锋对象的工厂和学雷锋子类，不需要修改原有的代码，符合开闭原则
+        
     }
     return 0;
 }

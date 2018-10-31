@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F786E29E218861F000709258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F786E29D218861F000709258 /* main.m */; };
+		F7ACEA1521894A34000B0CDB /* LeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA1421894A34000B0CDB /* LeiFeng.m */; };
+		F7ACEA1821894EE4000B0CDB /* LeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA1721894EE4000B0CDB /* LeiFengFactory.m */; };
+		F7ACEA1B218951AA000B0CDB /* UnderGraduateLeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA1A218951AA000B0CDB /* UnderGraduateLeiFeng.m */; };
+		F7ACEA1E218951F0000B0CDB /* VolunteerLeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA1D218951F0000B0CDB /* VolunteerLeiFeng.m */; };
+		F7ACEA212189523E000B0CDB /* UndergraduateLeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA202189523E000B0CDB /* UndergraduateLeiFengFactory.m */; };
+		F7ACEA2421895260000B0CDB /* VolunteerLeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ACEA2321895260000B0CDB /* VolunteerLeiFengFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		F786E29A218861F000709258 /* FactoryMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FactoryMethod; sourceTree = BUILT_PRODUCTS_DIR; };
 		F786E29D218861F000709258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7ACEA1321894A34000B0CDB /* LeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
+		F7ACEA1421894A34000B0CDB /* LeiFeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeiFeng.m; sourceTree = "<group>"; };
+		F7ACEA1621894EE4000B0CDB /* LeiFengFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		F7ACEA1721894EE4000B0CDB /* LeiFengFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeiFengFactory.m; sourceTree = "<group>"; };
+		F7ACEA19218951AA000B0CDB /* UnderGraduateLeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnderGraduateLeiFeng.h; sourceTree = "<group>"; };
+		F7ACEA1A218951AA000B0CDB /* UnderGraduateLeiFeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnderGraduateLeiFeng.m; sourceTree = "<group>"; };
+		F7ACEA1C218951F0000B0CDB /* VolunteerLeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolunteerLeiFeng.h; sourceTree = "<group>"; };
+		F7ACEA1D218951F0000B0CDB /* VolunteerLeiFeng.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolunteerLeiFeng.m; sourceTree = "<group>"; };
+		F7ACEA1F2189523E000B0CDB /* UndergraduateLeiFengFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndergraduateLeiFengFactory.h; sourceTree = "<group>"; };
+		F7ACEA202189523E000B0CDB /* UndergraduateLeiFengFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergraduateLeiFengFactory.m; sourceTree = "<group>"; };
+		F7ACEA2221895260000B0CDB /* VolunteerLeiFengFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolunteerLeiFengFactory.h; sourceTree = "<group>"; };
+		F7ACEA2321895260000B0CDB /* VolunteerLeiFengFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolunteerLeiFengFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				F786E29D218861F000709258 /* main.m */,
+				F7ACEA1321894A34000B0CDB /* LeiFeng.h */,
+				F7ACEA1421894A34000B0CDB /* LeiFeng.m */,
+				F7ACEA1621894EE4000B0CDB /* LeiFengFactory.h */,
+				F7ACEA1721894EE4000B0CDB /* LeiFengFactory.m */,
+				F7ACEA19218951AA000B0CDB /* UnderGraduateLeiFeng.h */,
+				F7ACEA1A218951AA000B0CDB /* UnderGraduateLeiFeng.m */,
+				F7ACEA1C218951F0000B0CDB /* VolunteerLeiFeng.h */,
+				F7ACEA1D218951F0000B0CDB /* VolunteerLeiFeng.m */,
+				F7ACEA1F2189523E000B0CDB /* UndergraduateLeiFengFactory.h */,
+				F7ACEA202189523E000B0CDB /* UndergraduateLeiFengFactory.m */,
+				F7ACEA2221895260000B0CDB /* VolunteerLeiFengFactory.h */,
+				F7ACEA2321895260000B0CDB /* VolunteerLeiFengFactory.m */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -118,6 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7ACEA1521894A34000B0CDB /* LeiFeng.m in Sources */,
+				F7ACEA2421895260000B0CDB /* VolunteerLeiFengFactory.m in Sources */,
+				F7ACEA1E218951F0000B0CDB /* VolunteerLeiFeng.m in Sources */,
+				F7ACEA1821894EE4000B0CDB /* LeiFengFactory.m in Sources */,
+				F7ACEA212189523E000B0CDB /* UndergraduateLeiFengFactory.m in Sources */,
+				F7ACEA1B218951AA000B0CDB /* UnderGraduateLeiFeng.m in Sources */,
 				F786E29E218861F000709258 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
