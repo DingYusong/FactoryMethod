@@ -7,11 +7,10 @@
 //
 
 #import "LeiFengFactory.h"
-#import "LeiFeng.h"
 
 @implementation LeiFengFactory
 
-+ (LeiFeng *)createLeiFeng{
++ (LeiFeng *)createLeiFeng {
     return nil;
 }
 

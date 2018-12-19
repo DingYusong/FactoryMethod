@@ -11,7 +11,7 @@
 
 @implementation UndergraduateLeiFengFactory
 
-+(id)createLeiFeng {
++ (id)createLeiFeng {
     LeiFeng *leiFeng = [UnderGraduateLeiFeng new];
     return leiFeng;
 }

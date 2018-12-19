@@ -11,7 +11,7 @@
 
 @implementation VolunteerLeiFengFactory
 
-+(id)createLeiFeng{
++ (id)createLeiFeng {
     LeiFeng *leifeng = [VolunteerLeiFeng new];
     return leifeng;
 }
